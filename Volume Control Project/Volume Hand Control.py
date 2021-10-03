@@ -54,7 +54,7 @@ while True:
         length = math.hypot(x2 - x1, y2 - y1)
         # print (length)
 
-        ##HandRange 40 -> 280
+        ##HandRange 10 -> 180
         ##volume -65 -> 0
 
         vol = np.interp(length,[10,180],[minvol,maxVol])
